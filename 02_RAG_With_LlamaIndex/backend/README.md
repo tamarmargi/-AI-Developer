@@ -33,8 +33,11 @@
 1. התקנת חבילות הדרישות:
    ```bash
    pip install llama-index llama-index-llms-cohere llama-index-vector-stores-pinecone gradio python-dotenv
+   
    הגדרת משתני הסביבה בקובץ .env:
+
 COHERE_API_KEY=your_cohere_key
+
 PINECONE_API_KEY=your_pinecone_key
 
 הרצת השרת:
